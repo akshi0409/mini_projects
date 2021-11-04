@@ -1,0 +1,36 @@
+body {
+    padding: auto;
+    margin: 120px;
+    margin-top: 220px!important;
+    background-color: blueviolet;
+}
+
+.keys {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+}
+
+.keys div {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    min-height: 80px;
+    min-width: 80px;
+    border: 2px solid black;
+    font-size: 35px;
+    border-radius: 30%;
+    background-color: chocolate;
+}
+
+span {
+    font-size: 20px;
+}
+
+.pressed {
+    border: 2px solid red!important;
+    background-color: blue!important;
+    transform: scale(1.5, 1.5);
+    transition: ease-in-out transform 5s;
+}

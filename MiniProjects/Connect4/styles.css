@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+.grid {
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    height: 412px;
+    width: 483px;
+    background-color: teal;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 65px;
+    width: 65px;
+    border: 2px solid black;
+}
+
+.taken {
+    border: 2px solid white!important;
+}
+
+.player-one {
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.player-two {
+    background-color: crimson;
+    border-radius: 50%;
+}
